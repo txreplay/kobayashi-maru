@@ -1,0 +1,16 @@
+{
+  "name": "kobayashi-maru",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc typings/* --outDir js -w --pretty"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "newsapi": "^2.4.0",
+    "typescript": "^3.0.3"
+  }
+}
